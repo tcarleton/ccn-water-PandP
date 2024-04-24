@@ -1,8 +1,8 @@
 # Is the world running out of fresh water?
-This repository contains code and data necessary to replicate the findings of Carleton, Crews, and Nath (2024).
+This repository contains code and data necessary to replicate the findings of Carleton, Crews, and Nath (AEA Papers and Proceedings, 2024).
 
 ## Setup
-Scripts in this repository are written in Python, Stata and R. Throughout this document, it is assumed that the replicator operates from a working directory containing all necessary files and folders, which are detailed in the structure below.
+Scripts in this repository are written in Python, Stata, and R. Throughout this document, it is assumed that the replicator operates from a working directory containing all necessary files and folders, which are detailed in the structure below.
 
 ### File/folder structure
 ```text
