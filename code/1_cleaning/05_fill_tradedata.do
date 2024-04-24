@@ -1,3 +1,6 @@
+clear all
+set more off
+
 *------------------------------
 * Prepare ancillary dataframes
 *------------------------------

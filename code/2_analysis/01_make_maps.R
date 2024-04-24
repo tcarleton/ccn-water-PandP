@@ -3,9 +3,8 @@
 
 # ENVIRONMENT SETUP ------------------------------------------------------------
 
-# run setup script - delete setwd() line when using bash script
-setwd("/win/l1werpfile2/shared/Cheikh/Research/Ishan/Water/pp_replication")
-source("code/0_env_setup/00_setup.R")
+# run setup script
+source("code/0_env_setup/setup.R")
 
 # MAPPING SETUP ----------------------------------------------------------------
 

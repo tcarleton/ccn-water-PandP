@@ -50,5 +50,5 @@ scatter pop_mills water_stressed_level, ///
 	msymbol(circle) msize(medlarge) mcolor(gs1) graphregion(color(white))
 	
 // export the plot
-gr export "results/figA3.png", replace
+gr export "results/figA3.png", replace width(2000) height(1500)
 

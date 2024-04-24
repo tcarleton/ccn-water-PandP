@@ -4,12 +4,8 @@ Description: This file produces all scatterplots in the paper. Thus, it generate
 	A5, A6, A7, A8.
 *******************************************************************************/
 
-
-/*********************
-* ENVIRONMENT SETUP
-*********************/
-
-clear
+clear all
+set more off
 
 /*********************
 * MAKE SCATTERPLOTS

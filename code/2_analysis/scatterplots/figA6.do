@@ -40,4 +40,4 @@ scatter py_z_wmean water_stressed_level, ///
 	msymbol(circle) msize(medlarge) mcolor(gs1) graphregion(color(white))
 	
 // export the plot
-gr export "results/figA6.png", replace
+gr export "results/figA6.png", replace width(2000) height(1500)
