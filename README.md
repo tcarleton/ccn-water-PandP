@@ -126,8 +126,8 @@ The code was last run on a Linux terminal with Stata, R, and Python. The followi
 | `data/input/gaez/gaez.csv` | Crosswalk between [GAEZ (v4) Agro-climatic Potential Yield](https://gaez.fao.org/pages/theme-details-theme-3) fields and GRACE cells from [Carleton, Crews and Nath (2024)](https://www.levicrews.com/files/p-wateruse_paper.pdf). |
 | `data/input/grace/grace.dta` | GRACE data from [Carleton, Crews and Nath (2024)](https://www.levicrews.com/files/p-wateruse_paper.pdf). GRACE cells are merged with groundwater levels estimates from [Fan, Li and Miguez-Macho (2013)](https://www.science.org/doi/10.1126/science.1229881), gridded cropped area fraction data from [Monfreda et al. (2008)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GB002947) and from [Ramankutty et al. (2008)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GB002952), and cumulative precipitation from the Global Metorological Forcing Dataset . The croppped area fraction data was accessed through the [SAGE portal](https://sage.nelson.wisc.edu/data-and-models/datasets/#globaluse). |
 | `data/hand/caf_gaezpy_crosswalk.csv` | Crosswalk of crop names between GAEZ v4 and cropped area fraction data. |
-| `data/hand/fao_country_crosswalk.csv` | Obtained from [deprecated FAO link](https://www.fao.org/countryprofiles/iso3list/en/) |
-| `data/hand/FCL_HS_mappings_2020-01-07.csv` | Downloaded from a [deprecated FAO link](http://datalab.review.fao.org/datalab/caliper/web/sites/default/files/2020-01/FCL_HS_mappings_2020-01-07.csv). |
+| `data/hand/fao_country_crosswalk.csv` | Obtained from [deprecated FAO link](https://www.fao.org/countryprofiles/iso3list/en/). |
+| `data/hand/FCL_HS_mappings_2020-01-07.csv` | Downloaded from [deprecated FAO link](http://datalab.review.fao.org/datalab/caliper/web/sites/default/files/2020-01/FCL_HS_mappings_2020-01-07.csv). |
 | `data/nra/AgIncentivesNRP.csv` `data/nra/UpdatedDistortions_to_AgriculturalIncentives_database_0613.xls` | Obtained through the [AgIncentives Database](agincentives.org). |
 
 ## Instructions for replication
