@@ -1,7 +1,7 @@
 # load crop productivity data
 grace_croppy <- read_dta("data/intermediate/grace_merged/crop_spec_pot_yld.dta")
 
-# imitate the "bi_class" function as it does not work for some reason here
+# create biclass
 bisc_wheat_prod <- bi_class(grace_croppy,
                             x = whea_aei_yld, y = delta_wd_cm_yr,
                             style = "quantile", dim=n_quantile)

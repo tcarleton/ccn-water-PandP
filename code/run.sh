@@ -2,11 +2,8 @@
 
 # LOAD DEPENDENCIES AND MODULES --------------------------------------
 
-module load base-env
-module load proxy
-module load conda
-conda activate R4.2.3
-module load stata/17.0
+# load necessary modules here (if necessary)
+# module load ...
 
 # python packages
 pip install numpy
@@ -15,8 +12,10 @@ pip install fuzzywuzzy
 pip install xlrd
 pip install openpyxl
 
-# SET PATH HERE ------------------------------------------------------
-cd /win/l1werpfile2/shared/Cheikh/Research/Ishan/Water/pp_replication
+# SET WORKING DIRECTORY HERE -----------------------------------------
+
+# insert the path of your working directory after "cd"  
+cd 
 
 # CLEAN VIRTUAL WATER DATA -------------------------------------------
 

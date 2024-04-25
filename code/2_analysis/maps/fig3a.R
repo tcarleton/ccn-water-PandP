@@ -1,3 +1,6 @@
+# Description: This file produces Figure 3a. To do so, it also calculates the
+# largest bilateral virtual water flows and adds them to the map as linestrings.
+
 # CLEAN VIRTUAL WATER DATA -----------------------------------------------------
 
 # load merged virtual water trade data

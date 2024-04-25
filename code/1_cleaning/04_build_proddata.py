@@ -81,7 +81,5 @@ prodvalue_full.rename(columns={'Gross Production Value (constant 2014-2016 thous
 prodvalue_full.to_csv('data/intermediate/production/prodvalue_full.csv', index=False)
 # %% select a baseline year
 prodvalue_baseline = prodvalue_full.loc[prodvalue_full['Year'] == 2009]
-# prodvalue_baseline.drop('gross_production_value_currentusd', axis=1, inplace=True)
-# prodvalue_baseline.rename(columns={'gross_production_value_constantusd': 'gross_production_value'}, inplace=True)
 # %% export baseline values
 prodvalue_baseline.to_csv('data/intermediate/production/prodvalue_baseline.csv', index=False)

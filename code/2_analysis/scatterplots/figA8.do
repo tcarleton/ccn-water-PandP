@@ -5,7 +5,7 @@ use "data/intermediate/grace_merged/grace_virtwflows.dta", clear
 local vars groundwater delta_wd_cm_yr
 foreach d of local vars {
 	preserve
-		// calculate weighted sum of rice productivity by decile of variables
+		// calculate weighted sum of virtual water imports by decile of variables
 		xtile dec_`d' = `d', nq(10) // creates deciles from variable
 		collapse (sum) virt_w_netimp_km3 [aw=areahec], by(dec_`d') // collapse by decile
 		

@@ -1,5 +1,4 @@
-# Description: This file merges GRACE cells with agricultural employment share
-# data from the World Bank for analysis.
+# Description: This file merges GRACE cells with the virtual water flows estimates.
 
 # ENVIRONMENT SETUP ------------------------------------------------------------
 

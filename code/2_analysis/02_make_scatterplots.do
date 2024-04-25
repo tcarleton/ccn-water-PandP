@@ -48,7 +48,7 @@ do "code/2_analysis/scatterplots/figA5.do"
 do "code/2_analysis/scatterplots/figA6.do"
 
 * appendix figure A7
-//do "code/2_analysis/scatterplots/figA7.do"
+do "code/2_analysis/scatterplots/figA7.do"
 
 * appendix figure A8
 do "code/2_analysis/scatterplots/figA8.do"

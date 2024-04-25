@@ -66,8 +66,6 @@ crosswalk.loc[crosswalk['FCL label'] == '[Oil palm fruit]', 'matches'] = 'Oilpal
 crosswalk.loc[crosswalk['FCL label'] == 'Palm kernels', 'matches'] = 'Oilpalm'
 crosswalk.loc[crosswalk['FCL label'] == 'Oil of palm', 'matches'] = 'Oilpalm'
 crosswalk.loc[crosswalk['FCL label'] == 'Castor Beans', 'matches'] = ''
-# crosswalk.loc[crosswalk['FCL label'] == '[Seed Cotton]', 'matches'] = ''
-# crosswalk.loc[crosswalk['FCL label'] == 'Cotton Lint', 'matches'] = ''
 crosswalk.loc[crosswalk['FCL label'] == 'Onions, shallots (green)', 'matches'] = ''
 crosswalk.loc[crosswalk['FCL label'] == 'Beans, green', 'matches'] = ''
 crosswalk.loc[crosswalk['FCL label'] == 'Broad Beans, Green', 'matches'] = ''
