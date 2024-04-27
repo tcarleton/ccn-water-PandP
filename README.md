@@ -131,7 +131,7 @@ The code was last run on a Linux terminal with Stata, R, and Python. The followi
 | `data/nra/AgIncentivesNRP.csv` `data/nra/UpdatedDistortions_to_AgriculturalIncentives_database_0613.xls` | Obtained through the [AgIncentives Database](agincentives.org). |
 
 ## Instructions for replication
-The analysis for this project can be fully replicated (from start to end) using the bash script `code/run.sh`. To do so, the replicator must install the software requirements detailed above and place the path of their working directory on line 19 of the bash script before executing it.
+The analysis for this project can be fully replicated (from start to end) using the bash script `code/run.sh`. To do so, the replicator must install the software requirements detailed above and place the path of their working directory on line 18 of the bash script before executing it.
 However, if the replicator wishes to only run the code partially or script by script, the programs should be executed in the following order (after setting the correct working directory):
 1. `code/1_cleaning/01_country_crosswalk.R` creates a country name crosswalk used in later scripts.
 2. `code/1_cleaning/02_crop_crosswalk.R` creates a crop crosswalk used in later scripts.
