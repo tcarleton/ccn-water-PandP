@@ -15,7 +15,7 @@ pip install openpyxl
 # SET WORKING DIRECTORY HERE -----------------------------------------
 
 # insert the path of your working directory after "cd"
-cd /scratch/network/lcrews/ccn-water-PandP
+cd
 
 # CLEAN VIRTUAL WATER DATA -------------------------------------------
 
