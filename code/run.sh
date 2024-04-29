@@ -5,17 +5,10 @@
 # load necessary modules here (if necessary)
 # module load ...
 
-echo "install python packages"
-pip install numpy
-pip install pandas
-pip install fuzzywuzzy
-pip install xlrd
-pip install openpyxl
-
 # SET WORKING DIRECTORY HERE -----------------------------------------
 
 # insert the path of your working directory after "cd"
-cd
+cd 
 
 # CLEAN VIRTUAL WATER DATA -------------------------------------------
 

@@ -4,7 +4,7 @@
 # ENVIRONMENT SETUP ------------------------------------------------------------
 
 # run setup script
-source("code/0_env_setup/setup.R")
+source("code/setup.R")
 
 # MAPPING SETUP ----------------------------------------------------------------
 
