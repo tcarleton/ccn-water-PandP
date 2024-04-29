@@ -11,8 +11,8 @@ Scripts in this repository are written in Python, Stata, and R. Throughout this 
 │   ├── 0_env_setup
 │   │   └── setup.R
 │   ├── 1_cleaning
-│   │   ├── 01_country_crosswalk.R
-│   │   ├── 02_crop_crosswalk.R
+│   │   ├── 01_country_crosswalk.py
+│   │   ├── 02_crop_crosswalk.py
 │   │   ├── 03_build_tradedata.py
 │   │   ├── 04_build_proddata.py
 │   │   ├── 05_fill_tradedata.do
@@ -133,8 +133,8 @@ The code was last run on a Linux terminal with Stata, R, and Python. The followi
 ## Instructions for replication
 The analysis for this project can be fully replicated (from start to end) using the bash script `code/run.sh`. To do so, the replicator must install the software requirements detailed above and place the path of their working directory on line 18 of the bash script before executing it.
 However, if the replicator wishes to only run the code partially or script by script, the programs should be executed in the following order (after setting the correct working directory):
-1. `code/1_cleaning/01_country_crosswalk.R` creates a country name crosswalk used in later scripts.
-2. `code/1_cleaning/02_crop_crosswalk.R` creates a crop crosswalk used in later scripts.
+1. `code/1_cleaning/01_country_crosswalk.py` creates a country name crosswalk used in later scripts.
+2. `code/1_cleaning/02_crop_crosswalk.py` creates a crop crosswalk used in later scripts.
 3. `code/1_cleaning/03_build_tradedata.py` cleans trade data from BACI/COMTRADE.
 4. `code/1_cleaning/04_build_proddata.py` cleans production data from the FAO.
 5. `code/1_cleaning/05_fill_tradedata.do` fills trade data with auto-consumption.
