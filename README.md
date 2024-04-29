@@ -8,8 +8,7 @@ Scripts in this repository are written in Python, Stata, and R. Throughout this 
 ```text
 ├── code
 │   ├── run.sh
-│   ├── 0_env_setup
-│   │   └── setup.R
+│   ├── setup.R
 │   ├── 1_cleaning
 │   │   ├── 01_country_crosswalk.py
 │   │   ├── 02_crop_crosswalk.py
@@ -89,10 +88,10 @@ Scripts in this repository are written in Python, Stata, and R. Throughout this 
 ```
 
 ### Software requirements
-The code was last run on a Linux terminal with Stata, R, and Python. The following packages/libraries were installed and used:
-1. *Stata 17*
+The code was last run on a Linux cluster with Stata (version 17.0), R (version 4.2.3), and Python (version 3.9.18). Note that the scripts in this repository do not install any of the packages needed to replicate this project. Thus, the user must install the packages listed below before attempting to run any script. The user should also be aware that installing these packages may take some time (could take as long as 30 mins if none of the R packages were previously installed).
+1. Stata
  - egenmore
-2. *R 4.2.3*
+2. R
  - tidyverse=2.0.0
  - haven=2.5.2
  - readxl=1.4.2
@@ -105,7 +104,7 @@ The code was last run on a Linux terminal with Stata, R, and Python. The followi
  - biscale=1.0.0
  - dichromat=2.0-0.1
  - geosphere=1.5-18
-3. *Python 3*
+3. Python
  - numpy=1.13.5
  - pandas=1.5.3
  - fuzzywuzzy=0.18.0
@@ -129,7 +128,7 @@ The code was last run on a Linux terminal with Stata, R, and Python. The followi
 | `data/input/nra/AgIncentivesNRP.csv` `data/input/nra/UpdatedDistortions_to_AgriculturalIncentives_database_0613.xls` | Obtained through the [AgIncentives Database](agincentives.org). |
 
 ## Instructions for replication
-The analysis for this project can be fully replicated (from start to end) using the bash script `code/run.sh`. To do so, the replicator must install the software requirements detailed above and place the path of their working directory on line 18 of the bash script before executing it.
+The analysis for this project can be fully replicated (from start to end) using the bash script `code/run.sh`. To do so, the replicator must install the software requirements detailed above and place the path of their working directory on line 11 of the bash script before executing it.
 However, if the replicator wishes to only run the code partially or script by script, the programs should be executed in the following order (after setting the correct working directory):
 1. `code/1_cleaning/01_country_crosswalk.py` creates a country name crosswalk used in later scripts.
 2. `code/1_cleaning/02_crop_crosswalk.py` creates a crop crosswalk used in later scripts.
